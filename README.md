@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Event Planner Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Overview:**
+This web application serves as an Event Planner, allowing users to create, manage, and RSVP to events. It provides a simple and intuitive interface for users to schedule events, view upcoming activities, and manage their attendance status.
 
-## Available Scripts
+**Key Features:**
+- **Event Creation:** Users can easily create events by providing details such as event name and date.
+- **Event Management:** The application offers the ability to view, edit, and delete events.
+- **RSVP Functionality:** Users can respond to event invitations with RSVP status (Going, Not Going, Not Responded).
+- **Calendar View:** A visual calendar displays events with optional RSVP status indicators.
 
-In the project directory, you can run:
+**Technologies Used:**
+- **React:** The frontend is built using React for a dynamic and responsive user interface.
+- **Firebase:** Firebase Firestore is used as the backend database to store event data.
+- **React Router:** Navigation is handled using React Router to create a seamless single-page application.
 
-### `npm start`
+**Project Structure:**
+- **src/components:** Contains React components for SignIn, SignUp, EventForm, RSVP, CalendarView, etc.
+- **src/firebase:** Firebase configuration and initialization.
+- **src/App.js:** Main entry point, routing configuration using React Router.
+- **src/index.js:** Renders the React application into the root HTML element.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**How to Use:**
+1. Clone the repository to your local machine.
+2. Run `npm install` to install dependencies.
+3. Set up Firebase Firestore and update the configuration in `firebase.js`.
+4. Run the app using `npm start`.
+5. Access the application at [http://localhost:3000](http://localhost:3000).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Contributions:**
+Contributions and feature requests are welcome! Feel free to open issues or create pull requests.
 
-### `npm test`
+**Author:**
+VishaL Yadav
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Feel free to customize this description based on your specific preferences and additional details about the project.
